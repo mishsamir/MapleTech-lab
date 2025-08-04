@@ -83,3 +83,12 @@ az policy definition create \
   --display-name "Only Canada Central" \
   --description "Deny resources not in Canada Central" \
   --subscription <your-subscription-id>
+
+```
+
+## Screenshots
+![image info](screenshots/validation.png)
+![image info](screenshots/validation2.png)
+![image info](screenshots/validation3.png)
+![image info](screenshots/validation4.png)
+
