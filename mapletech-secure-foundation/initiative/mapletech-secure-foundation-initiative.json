@@ -1,0 +1,56 @@
+{
+  "properties": {
+    "displayName": "MapleTech Secure Foundation",
+    "policyType": "Custom",
+    "metadata": {
+      "category": "Security",
+      "createdBy": "75513026-43a6-4a11-b5cf-211090660155",
+      "createdOn": "2025-08-04T22:51:44.7522468Z",
+      "updatedBy": null,
+      "updatedOn": null
+    },
+    "version": "1.0.0",
+    "parameters": {},
+    "policyDefinitions": [
+      {
+        "policyDefinitionReferenceId": "Deny-Public-IP_1",
+        "policyDefinitionId": "/subscriptions/5e942409-9895-49e8-b6c2-3b2dfa341205/providers/Microsoft.Authorization/policyDefinitions/3ad19be7-9ab4-473f-908f-a13de7aa4a99",
+        "definitionVersion": "1.*.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {},
+        "groupNames": []
+      },
+      {
+        "policyDefinitionReferenceId": "Require-ProjectName-Tag_1",
+        "policyDefinitionId": "/subscriptions/5e942409-9895-49e8-b6c2-3b2dfa341205/providers/Microsoft.Authorization/policyDefinitions/3ad19be7-9ab4-473f-908f-a13de7aa4a86",
+        "definitionVersion": "1.*.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {},
+        "groupNames": []
+      },
+      {
+        "policyDefinitionReferenceId": "Only-CanadaCentral_1",
+        "policyDefinitionId": "/subscriptions/5e942409-9895-49e8-b6c2-3b2dfa341205/providers/Microsoft.Authorization/policyDefinitions/3ad19be7-9ab4-473f-908f-a13de7aa4a73",
+        "definitionVersion": "1.*.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {},
+        "groupNames": []
+      }
+    ],
+    "policyDefinitionGroups": [],
+    "versions": [
+      "1.0.0"
+    ]
+  },
+  "id": "/subscriptions/5e942409-9895-49e8-b6c2-3b2dfa341205/providers/Microsoft.Authorization/policySetDefinitions/65957df03a664d688f02551a",
+  "type": "Microsoft.Authorization/policySetDefinitions",
+  "name": "65957df03a664d688f02551a",
+  "systemData": {
+    "createdBy": "mish0031@algonquinlive.com",
+    "createdByType": "User",
+    "createdAt": "2025-08-04T22:51:44.702252Z",
+    "lastModifiedBy": "mish0031@algonquinlive.com",
+    "lastModifiedByType": "User",
+    "lastModifiedAt": "2025-08-04T22:51:44.702252Z"
+  }
+}

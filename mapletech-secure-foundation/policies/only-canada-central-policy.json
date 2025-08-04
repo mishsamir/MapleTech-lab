@@ -1,0 +1,19 @@
+{
+  "mode": "All",
+  "policyRule": {
+    "if": {
+      "not": {
+        "field": "location",
+        "equals": "canadacentral"
+      }
+    },
+    "then": {
+      "effect": "deny"
+    }
+  },
+  "parameters": {},
+  "metadata": {
+    "category": "General",
+    "version": "1.0.0"
+  }
+}
